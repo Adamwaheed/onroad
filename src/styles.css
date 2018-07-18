@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+  padding: 0px;margin: 0px;
+}
+
+@font-face{
+  font-family:"MV Aaamu FK";
+  src:url(assets/fonts/MVAaamuFK.ttf)
+}
+@font-face{
+  font-family:"MV Faseyha";
+  src:url(assets/fonts/mv_faseyha.otf)
+}
+
+body{
+  font-family:"MV Faseyha", "Faruma","mv galan normal","mv iyyu normal",'Thaana Unicode Akeh', "mv boli";
+
+  font-size:18px;
+  line-height:32px;}
+
+#site-title,blockquote,.bold, h1, h2, h3, h4, h5, h6  {
+  font-family:"MV Aaamu FK", "Faruma","mv galan normal","mv iyyu normal",'Thaana Unicode Akeh', "mv boli";
+}
+
+.menumv{
+  font-weight: lighter!important;
+  font-size: 19px;
+  padding: 10px!important;
+  margin-top: 4px!important;
+  font-family:"MV Faseyha", "Faruma","mv galan normal","mv iyyu normal",'Thaana Unicode Akeh', "mv boli";
+}
+
+.logo{
+  ont-weight: lighter!important;
+  font-size: 32px;
+  font-family: "MV Aaamu FK", "Faruma","mv galan normal","mv iyyu normal",'Thaana Unicode Akeh', "mv boli";
+  margin: 17px;
+
+}
+
+.lists{
+  font-weight: lighter!important;
+  font-size: 20px!important;
+  padding: 10px!important;
+  direction: rtl;
+  margin-top: 4px!important;
+  font-family: "MV Faseyha", "Faruma","mv galan normal","mv iyyu normal",'Thaana Unicode Akeh', "mv boli";
+  color: white!important;
+}
+
+.listenP{
+  color: white!important;
+}
