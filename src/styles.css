@@ -19,7 +19,7 @@ body{
   font-size:18px;
   line-height:32px;}
 
-#site-title,blockquote,.bold, h1, h2, h3, h4, h5, h6  {
+#site-title,blockquote,.bold  {
   font-family:"MV Aaamu FK", "Faruma","mv galan normal","mv iyyu normal",'Thaana Unicode Akeh', "mv boli";
 }
 
@@ -46,7 +46,6 @@ body{
   direction: rtl;
   margin-top: 4px!important;
   font-family: "MV Faseyha", "Faruma","mv galan normal","mv iyyu normal",'Thaana Unicode Akeh', "mv boli";
-  color: white!important;
 }
 
 .listenP{

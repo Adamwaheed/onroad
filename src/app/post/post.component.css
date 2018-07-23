@@ -1,0 +1,71 @@
+.animated {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  opacity: 0;
+  position: fixed;
+}
+.one {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+.two {
+  -webkit-animation-name: flash1;
+  animation-name: flash1;
+
+}
+.three {
+  -webkit-animation-name: flash2;
+  animation-name: flash2;
+
+}
+@keyframes flash {
+  from, 10% {
+    opacity: 1;
+  }
+
+  20%, to {
+    opacity: 0;
+  }
+}
+
+@keyframes flash1 {
+  from {
+    opacity: 0;
+  }
+  33% {
+    opacity: 1;
+  }
+  25%, 45% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes flash2 {
+  from, 60% {
+    opacity: 0;
+  }
+
+  65% {
+    opacity: 1;
+  }
+  75%, to {
+    opacity: 0;
+  }
+}
+
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
